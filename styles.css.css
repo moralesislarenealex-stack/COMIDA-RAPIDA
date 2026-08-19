@@ -1,0 +1,70 @@
+header{
+    background: linear-gradient(
+        to left,
+        red,
+        orange
+    );
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    margin: 30px;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+ul li:hover{
+    color: black;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+footer{
+    background: linear-gradient(
+        to right,
+        rgb(15, 238, 7),
+        rgb(207, 221, 10)
+    );
+}
+.imagenfondo {
+    background-image: url(pollo.jfif) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+} 
+.fondooscuro{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    width: 50%;
+    border-radius: 25px;
+}
+h2{
+    color:bisque;
+    font-size: larger;
+}
+.boton{
+     color:bisque;
+     background-color: red;
+     padding: 15px 50px;
+     font-size: medium;
+     border-radius: 30px;
+    
+}
+.boton:hover{
+    color: bisque;
+    transform: scale(1.2);
+    cursor: pointer;
+    font-weight: bold;
+}
